@@ -1,0 +1,320 @@
+{
+  "version": "0.3",
+  "locale": "ru-RU",
+  "ageBand": "5-6",
+  "learningGoal": "identify-initial-hard-m",
+  "methodistApproved": false,
+  "scoreThresholdExample": 4,
+  "assetsStatus": "temporary",
+  "audioStatus": "scripts-only-no-recordings",
+  "instructions": {
+    "intro": "Привет! Я Ёжик. Сегодня в лесу перепутались посылки. Поможешь мне их разобрать?",
+    "phoneme": "Ищем слова, которые начинаются со звука [м]. Послушай: м-м-м.",
+    "prompt": "Послушай слова. Какое начинается со звука [м]?",
+    "trainingCorrect": "Верно! Слово {word} начинается со звука [м].",
+    "trainingRetry": "Давай послушаем ещё раз. Нам нужен звук [м] в самом начале слова.",
+    "trainingHint": "Послушай: м-м-{word}. Попробуй найти такое же начало.",
+    "assessmentIntro": "Теперь ты главный помощник почтальона! Послушай слова и найди то, которое начинается со звука [м].",
+    "celebration": "Ура! Мы разобрали всю почту. Спасибо, что помог мне!"
+  },
+  "words": [
+    {
+      "id": "мыло",
+      "text": "мыло",
+      "audioKey": "words/мыло",
+      "illustrationKey": "objects/мыло",
+      "startsWithHardM": true
+    },
+    {
+      "id": "кот",
+      "text": "кот",
+      "audioKey": "words/кот",
+      "illustrationKey": "objects/кот",
+      "startsWithHardM": false
+    },
+    {
+      "id": "дом",
+      "text": "дом",
+      "audioKey": "words/дом",
+      "illustrationKey": "objects/дом",
+      "startsWithHardM": false
+    },
+    {
+      "id": "лук",
+      "text": "лук",
+      "audioKey": "words/лук",
+      "illustrationKey": "objects/лук",
+      "startsWithHardM": false
+    },
+    {
+      "id": "море",
+      "text": "море",
+      "audioKey": "words/море",
+      "illustrationKey": "objects/море",
+      "startsWithHardM": true
+    },
+    {
+      "id": "нос",
+      "text": "нос",
+      "audioKey": "words/нос",
+      "illustrationKey": "objects/нос",
+      "startsWithHardM": false
+    },
+    {
+      "id": "мама",
+      "text": "мама",
+      "audioKey": "words/мама",
+      "illustrationKey": "objects/мама",
+      "startsWithHardM": true
+    },
+    {
+      "id": "машина",
+      "text": "машина",
+      "audioKey": "words/машина",
+      "illustrationKey": "objects/машина",
+      "startsWithHardM": true
+    },
+    {
+      "id": "зонт",
+      "text": "зонт",
+      "audioKey": "words/зонт",
+      "illustrationKey": "objects/зонт",
+      "startsWithHardM": false
+    },
+    {
+      "id": "арбуз",
+      "text": "арбуз",
+      "audioKey": "words/арбуз",
+      "illustrationKey": "objects/арбуз",
+      "startsWithHardM": false
+    },
+    {
+      "id": "молоко",
+      "text": "молоко",
+      "audioKey": "words/молоко",
+      "illustrationKey": "objects/молоко",
+      "startsWithHardM": true
+    },
+    {
+      "id": "сок",
+      "text": "сок",
+      "audioKey": "words/сок",
+      "illustrationKey": "objects/сок",
+      "startsWithHardM": false
+    },
+    {
+      "id": "рыба",
+      "text": "рыба",
+      "audioKey": "words/рыба",
+      "illustrationKey": "objects/рыба",
+      "startsWithHardM": false
+    },
+    {
+      "id": "мост",
+      "text": "мост",
+      "audioKey": "words/мост",
+      "illustrationKey": "objects/мост",
+      "startsWithHardM": true
+    },
+    {
+      "id": "груша",
+      "text": "груша",
+      "audioKey": "words/груша",
+      "illustrationKey": "objects/груша",
+      "startsWithHardM": false
+    },
+    {
+      "id": "лес",
+      "text": "лес",
+      "audioKey": "words/лес",
+      "illustrationKey": "objects/лес",
+      "startsWithHardM": false
+    },
+    {
+      "id": "муха",
+      "text": "муха",
+      "audioKey": "words/муха",
+      "illustrationKey": "objects/муха",
+      "startsWithHardM": true
+    },
+    {
+      "id": "дерево",
+      "text": "дерево",
+      "audioKey": "words/дерево",
+      "illustrationKey": "objects/дерево",
+      "startsWithHardM": false
+    },
+    {
+      "id": "книга",
+      "text": "книга",
+      "audioKey": "words/книга",
+      "illustrationKey": "objects/книга",
+      "startsWithHardM": false
+    },
+    {
+      "id": "молоток",
+      "text": "молоток",
+      "audioKey": "words/молоток",
+      "illustrationKey": "objects/молоток",
+      "startsWithHardM": true
+    },
+    {
+      "id": "луна",
+      "text": "луна",
+      "audioKey": "words/луна",
+      "illustrationKey": "objects/луна",
+      "startsWithHardM": false
+    },
+    {
+      "id": "сапог",
+      "text": "сапог",
+      "audioKey": "words/сапог",
+      "illustrationKey": "objects/сапог",
+      "startsWithHardM": false
+    },
+    {
+      "id": "морковь",
+      "text": "морковь",
+      "audioKey": "words/морковь",
+      "illustrationKey": "objects/морковь",
+      "startsWithHardM": true
+    },
+    {
+      "id": "сова",
+      "text": "сова",
+      "audioKey": "words/сова",
+      "illustrationKey": "objects/сова",
+      "startsWithHardM": false
+    },
+    {
+      "id": "торт",
+      "text": "торт",
+      "audioKey": "words/торт",
+      "illustrationKey": "objects/торт",
+      "startsWithHardM": false
+    },
+    {
+      "id": "маска",
+      "text": "маска",
+      "audioKey": "words/маска",
+      "illustrationKey": "objects/маска",
+      "startsWithHardM": true
+    },
+    {
+      "id": "ведро",
+      "text": "ведро",
+      "audioKey": "words/ведро",
+      "illustrationKey": "objects/ведро",
+      "startsWithHardM": false
+    },
+    {
+      "id": "шар",
+      "text": "шар",
+      "audioKey": "words/шар",
+      "illustrationKey": "objects/шар",
+      "startsWithHardM": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "B01",
+      "phase": "baseline",
+      "options": [
+        "мыло",
+        "кот",
+        "дом"
+      ],
+      "correct": "мыло"
+    },
+    {
+      "id": "B02",
+      "phase": "baseline",
+      "options": [
+        "лук",
+        "море",
+        "нос"
+      ],
+      "correct": "море"
+    },
+    {
+      "id": "L01",
+      "phase": "training",
+      "options": [
+        "мама",
+        "кот",
+        "дом"
+      ],
+      "correct": "мама"
+    },
+    {
+      "id": "L02",
+      "phase": "training",
+      "options": [
+        "машина",
+        "зонт",
+        "арбуз"
+      ],
+      "correct": "машина"
+    },
+    {
+      "id": "L03",
+      "phase": "training",
+      "options": [
+        "молоко",
+        "сок",
+        "рыба"
+      ],
+      "correct": "молоко"
+    },
+    {
+      "id": "T01",
+      "phase": "assessment",
+      "options": [
+        "мост",
+        "груша",
+        "лес"
+      ],
+      "correct": "мост"
+    },
+    {
+      "id": "T02",
+      "phase": "assessment",
+      "options": [
+        "муха",
+        "дерево",
+        "книга"
+      ],
+      "correct": "муха"
+    },
+    {
+      "id": "T03",
+      "phase": "assessment",
+      "options": [
+        "молоток",
+        "луна",
+        "сапог"
+      ],
+      "correct": "молоток"
+    },
+    {
+      "id": "T04",
+      "phase": "assessment",
+      "options": [
+        "морковь",
+        "сова",
+        "торт"
+      ],
+      "correct": "морковь"
+    },
+    {
+      "id": "T05",
+      "phase": "assessment",
+      "options": [
+        "маска",
+        "ведро",
+        "шар"
+      ],
+      "correct": "маска"
+    }
+  ]
+}
