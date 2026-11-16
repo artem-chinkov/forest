@@ -5,7 +5,7 @@
   "description": "Лесная почта: пять игровых экранов и Microsoft Dmitry",
   "scripts": {
     "start": "python3 tools/serve.py --open",
-    "check": "node --check demo/catalog.js && node --check demo/lesson.js && node --check demo/audio.js && node --check demo/drag.js && node --check demo/app.js && python3 tools/check_assets.py",
+    "check": "node --check demo/catalog.js && node --check demo/lesson.js && node --check demo/audio.js && node --check demo/soundscape.js && node --check demo/drag.js && node --check demo/app.js && python3 tools/check_assets.py",
     "test": "node --test tests/*.test.cjs",
     "build": "python3 tools/build.py"
   }

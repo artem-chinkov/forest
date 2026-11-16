@@ -1,0 +1,1 @@
+Музыка и эффекты: CC0-1.0. Kenney Vleugels: https://kenney.nl/assets/interface-sounds , https://kenney.nl/assets/ui-audio , https://kenney.nl/assets/music-jingles . Music: polosik, https://opengameart.org/content/simple-menubackground-music-loop . Точные файлы, обработка и SHA-256 приведены в manifest.json.

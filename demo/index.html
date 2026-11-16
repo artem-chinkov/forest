@@ -11,6 +11,7 @@
   <script defer src="catalog.js"></script>
   <script defer src="lesson.js"></script>
   <script defer src="audio.js"></script>
+  <script defer src="soundscape.js"></script>
   <script defer src="drag.js"></script>
   <script defer src="app.js"></script>
 </head>
@@ -23,6 +24,15 @@
       <p id="notice-description"></p>
       <button id="resume-audio" class="primary">Включить звук</button>
       <button id="notice-reset" class="text-button">Начать заново</button>
+    </div>
+  </div>
+  <div id="audio-settings" class="sound-notice" hidden role="dialog" aria-modal="true" aria-labelledby="audio-settings-title">
+    <div class="notice-card audio-settings-card">
+      <h2 id="audio-settings-title">Звуки лесной почты</h2>
+      <label class="audio-setting"><span>Музыка</span><input id="music-enabled" type="checkbox" role="switch" checked></label>
+      <label class="audio-setting"><span>Эффекты</span><input id="effects-enabled" type="checkbox" role="switch" checked></label>
+      <p>Голос Ёжика остаётся включённым.</p>
+      <button id="audio-settings-close" class="primary">Готово</button>
     </div>
   </div>
   <p id="status" class="sr-only" role="status" aria-live="polite"></p>

@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "clips": {
+    "tap": {
+      "file": "tap.wav",
+      "sourceFile": "kenney_ui-audio/Audio/click1.ogg",
+      "sourceUrl": "https://kenney.nl/assets/ui-audio",
+      "author": "Kenney Vleugels",
+      "license": "CC0-1.0",
+      "sourceSha256": "59175ac17cd49a68dd736285738441287636112a84a6f7ce0d89921bda5a5360",
+      "sha256": "c09087d25c2e17ed61d61e89530f324ebbc43a73a65b31952780a53f33897b6a",
+      "duration": 0.08498866213151927,
+      "processing": "Trim silence; mono PCM16 22050Hz; limit duration; normalize peak <= -13dBFS and RMS <= -23dBFS; 5ms edge fades"
+    },
+    "pack": {
+      "file": "pack.wav",
+      "sourceFile": "kenney_interface-sounds/Audio/drop_002.ogg",
+      "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+      "author": "Kenney Vleugels",
+      "license": "CC0-1.0",
+      "sourceSha256": "4ac4d1cef7e936965cbf795852ca2020300b9e2ba7daa59f2bf4f1f7bf416218",
+      "sha256": "1cfc43d06b9857e6ad6bc0b0f046410b53d88fa999f7e36ea86d10880afbbc00",
+      "duration": 0.12,
+      "processing": "Trim silence; mono PCM16 22050Hz; limit duration; normalize peak <= -13dBFS and RMS <= -23dBFS; 5ms edge fades"
+    },
+    "return": {
+      "file": "return.wav",
+      "sourceFile": "kenney_interface-sounds/Audio/back_001.ogg",
+      "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+      "author": "Kenney Vleugels",
+      "license": "CC0-1.0",
+      "sourceSha256": "07db973f79f6ae0f2edc34561e7592e24d0577455919fb602cb8ecc0da991dcf",
+      "sha256": "a1baef3faefd2263a41f20cbcaea38d473763528fa08a5d5b042d53b33027b49",
+      "duration": 0.06099773242630385,
+      "processing": "Trim silence; mono PCM16 22050Hz; limit duration; normalize peak <= -13dBFS and RMS <= -23dBFS; 5ms edge fades"
+    },
+    "send": {
+      "file": "send.wav",
+      "sourceFile": "kenney_interface-sounds/Audio/scroll_001.ogg",
+      "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+      "author": "Kenney Vleugels",
+      "license": "CC0-1.0",
+      "sourceSha256": "320c6aafb2c7a503eae508dc443b72d7f7c0a317bfd16813157ed400cd04cf16",
+      "sha256": "2ccf8ceb94ead55f13f205d180cf7f35b7c1546003c53dca11142fa61d799dcd",
+      "duration": 0.24997732426303854,
+      "processing": "Trim silence; mono PCM16 22050Hz; limit duration; normalize peak <= -13dBFS and RMS <= -23dBFS; 5ms edge fades"
+    },
+    "catch": {
+      "file": "catch.wav",
+      "sourceFile": "kenney_interface-sounds/Audio/switch_001.ogg",
+      "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+      "author": "Kenney Vleugels",
+      "license": "CC0-1.0",
+      "sourceSha256": "3b74efad87f1e69dbd1d05c5ad952ab90859b5a3d11da6ec5bd79b4f03b42afa",
+      "sha256": "d057355c393ebe728ee6970e9b9c0d082358f220702190264c226fe42a4ac2e8",
+      "duration": 0.08997732426303855,
+      "processing": "Trim silence; mono PCM16 22050Hz; limit duration; normalize peak <= -13dBFS and RMS <= -23dBFS; 5ms edge fades"
+    },
+    "envelope": {
+      "file": "envelope.wav",
+      "sourceFile": "kenney_interface-sounds/Audio/pluck_001.ogg",
+      "sourceUrl": "https://kenney.nl/assets/interface-sounds",
+      "author": "Kenney Vleugels",
+      "license": "CC0-1.0",
+      "sourceSha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4",
+      "sha256": "66f3e3d79874e2af74b1e44dbb24f0c1684386e5ecbf0756212f0b8a9db307f3",
+      "duration": 0.09954648526077098,
+      "processing": "Trim silence; mono PCM16 22050Hz; limit duration; normalize peak <= -13dBFS and RMS <= -23dBFS; 5ms edge fades"
+    },
+    "reward": {
+      "file": "reward.wav",
+      "sourceFile": "kenney_music-jingles/Audio/Pizzicato jingles/jingles_PIZZI00.ogg",
+      "sourceUrl": "https://kenney.nl/assets/music-jingles",
+      "author": "Kenney Vleugels",
+      "license": "CC0-1.0",
+      "sourceSha256": "b442ade3308a2bbda4b8c572c86f9f1071c7bdbcfb1e6f915d35c605b61bd475",
+      "sha256": "4cc6d318385a6134bac8f84e2f672b802a6821ca23b06a344aa4e86148706bb8",
+      "duration": 0.4941950113378685,
+      "processing": "Trim silence; mono PCM16 22050Hz; limit duration; normalize peak <= -13dBFS and RMS <= -23dBFS; 5ms edge fades"
+    },
+    "music": {
+      "file": "music.mp3",
+      "sourceFile": "simple_loop.ogg",
+      "sourceUrl": "https://opengameart.org/content/simple-menubackground-music-loop",
+      "author": "polosik",
+      "license": "CC0-1.0",
+      "sourceSha256": "31ffea0b986eaba7f3f5c3ddf50dc2f68f51085a7a232cc346af6af722b72550",
+      "sha256": "4cf8994ce64015ff95996696e8e0002c9fa17b677716fdf243feaf58e4699556",
+      "duration": 119.53365079365079,
+      "loopStart": 0,
+      "loopEnd": 119.53365079365079,
+      "processing": "Complete loop; 250ms wrap crossfade; stereo 44100Hz MP3 96kbps; normalize peak <= -9dBFS and RMS <= -22.5dBFS"
+    }
+  }
+}
