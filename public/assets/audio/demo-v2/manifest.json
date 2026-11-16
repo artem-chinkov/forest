@@ -1,0 +1,516 @@
+{
+  "version": 2,
+  "voice": "ru-RU-DmitryNeural",
+  "engine": "edge-tts",
+  "rate": "-10%",
+  "selectedByUser": true,
+  "synthetic": true,
+  "methodistApproved": false,
+  "cueStrategy": "Letter names, not isolated phonemes. User explicitly chose single-character М and wording на букву М.",
+  "clips": {
+    "hello": {
+      "file": "hello.wav",
+      "text": "Привет! Я Ёжик. Добро пожаловать на лесную почту!",
+      "duration": 7.272,
+      "bytes": 324792,
+      "sha256": "1110023446add5183d0a2e50f8e81f9b4bf9c2d8278176cad78839e515e26adb",
+      "kind": "instruction"
+    },
+    "letter-name": {
+      "file": "letter-name.wav",
+      "text": "Посмотри на эту букву.",
+      "duration": 2.736,
+      "bytes": 124754,
+      "sha256": "413f682aca989f856fbd9946502d4f4d925b79b28e8758eb755f4485ce3978c2",
+      "kind": "instruction"
+    },
+    "soap-start": {
+      "file": "soap-start.wav",
+      "text": "Слово «мыло» начинается с этой буквы.",
+      "duration": 4.368,
+      "bytes": 196726,
+      "sha256": "ef2e76f75c889c5bcba86122b21d06fc00db0a7e0f64d73b0a9bd095d46c1e0c",
+      "kind": "instruction"
+    },
+    "example-start": {
+      "file": "example-start.wav",
+      "text": "И здесь первая буква.",
+      "duration": 2.76,
+      "bytes": 125812,
+      "sha256": "352cf57fec270f2f84cc27df9f76f21176dd550dc9be7b977261cda2147ac183",
+      "kind": "instruction"
+    },
+    "example-same": {
+      "file": "example-same.wav",
+      "text": "Мыло и молоко начинаются с одной буквы.",
+      "duration": 4.008,
+      "bytes": 180850,
+      "sha256": "faf5a05f784e25f5727b35d2d8fd6fbeb7fb1efb5111a483e03ba91f6d450045",
+      "kind": "instruction"
+    },
+    "continue": {
+      "file": "continue.wav",
+      "text": "Нажми на стрелку, чтобы идти дальше.",
+      "duration": 3.912,
+      "bytes": 176616,
+      "sha256": "292952a419569658230f7d392ec8de976acdb5626a7de86422e4575e994128f8",
+      "kind": "instruction"
+    },
+    "packing-intro": {
+      "file": "packing-intro.wav",
+      "text": "Положи в посылку слова, которые начинаются с буквы эм. Перетащи картинки сюда.",
+      "duration": 7.824,
+      "bytes": 349136,
+      "sha256": "c334dddafc5faa7eea76ae7c018318bd6b946fdbdd57e448c4dbeecd5fa85de5",
+      "kind": "instruction"
+    },
+    "packing-retry": {
+      "file": "packing-retry.wav",
+      "text": "Послушай название ещё раз. Нужны слова на букву эм.",
+      "duration": 6.432,
+      "bytes": 287748,
+      "sha256": "46343f98411acf76202138883b808c562ca2afd0f7753ea7505945ec2aa236ac",
+      "kind": "instruction"
+    },
+    "packing-hint": {
+      "file": "packing-hint.wav",
+      "text": "Вот мыло и молоко. Перетащи эти картинки в посылку.",
+      "duration": 6.384,
+      "bytes": 285632,
+      "sha256": "197c65de4605e0497627a3b65a580dfb56c0e2ee56a90f8cdf10fd8e382898d2",
+      "kind": "instruction"
+    },
+    "packing-one": {
+      "file": "packing-one.wav",
+      "text": "Есть! Положим ещё одну картинку.",
+      "duration": 4.872,
+      "bytes": 218952,
+      "sha256": "d7d1a05ee85c14d103130e9134923b5ca403f87c6c811f7ee5467cb7f49190bc",
+      "kind": "instruction"
+    },
+    "packing-send": {
+      "file": "packing-send.wav",
+      "text": "Мыло и молоко на месте. Отправляем посылку!",
+      "duration": 5.568,
+      "bytes": 249646,
+      "sha256": "7580f041b731a03102e5a747ec25799ea1cbdb3ac3f381e367f91dde338bc62e",
+      "kind": "instruction"
+    },
+    "speak-start": {
+      "file": "speak-start.wav",
+      "text": "Придумай другое слово на букву.",
+      "duration": 3.24,
+      "bytes": 146980,
+      "sha256": "6b2e27db6f8015c61b1aa4e8451fa71193aae70de4fe6087977dd9884116cdcd",
+      "kind": "instruction"
+    },
+    "speak-end": {
+      "file": "speak-end.wav",
+      "text": "Скажи слово вслух. Когда закончишь, нажми на стрелку.",
+      "duration": 6.288,
+      "bytes": 281398,
+      "sha256": "d37fc5ad31ba64b842fbdd8d19a00d708ea39fcb31485f49a94efca802707eb5",
+      "kind": "instruction"
+    },
+    "speak-hint": {
+      "file": "speak-hint.wav",
+      "text": "Посмотри на картинки. Эти слова начинаются с буквы эм.",
+      "duration": 6.216,
+      "bytes": 278222,
+      "sha256": "0a29a18faa377c2d7645140638a9bece3f970a610db68c128985c6f56c31f873",
+      "kind": "instruction"
+    },
+    "catch-story": {
+      "file": "catch-story.wav",
+      "text": "Посылка уже в пути. А ветер разбросал наши открытки! Помоги их поймать.",
+      "duration": 8.688,
+      "bytes": 387238,
+      "sha256": "b28eb93d8072d80ecf9054a668d20e550f9945c79e7b1fa9c8a99903292528a0",
+      "kind": "instruction"
+    },
+    "catch-how": {
+      "file": "catch-how.wav",
+      "text": "Выбирай открытки. Я назову первую букву и слово.",
+      "duration": 6.264,
+      "bytes": 280340,
+      "sha256": "77e633535d6a37998910bebb0bf56985925dce4a1401fb62e90112be86e9dd6c",
+      "kind": "instruction"
+    },
+    "catch-goal": {
+      "file": "catch-goal.wav",
+      "text": "Собери пять конвертов для слов на букву эм.",
+      "duration": 4.44,
+      "bytes": 199900,
+      "sha256": "2a4e3a4d45eb12fe2297af0289021062ddb509d614608030244a70847bbdc243",
+      "kind": "instruction"
+    },
+    "envelope-added": {
+      "file": "envelope-added.wav",
+      "text": "Ещё один конверт!",
+      "duration": 2.712,
+      "bytes": 123696,
+      "sha256": "c238627843667678f5ca063e893d0dd5f810ded9106f7c4037d3550920059d4c",
+      "kind": "instruction"
+    },
+    "letters-ready": {
+      "file": "letters-ready.wav",
+      "text": "Пять конвертов готовы! Нажми на почтовый ящик, чтобы отправить письма.",
+      "duration": 7.224,
+      "bytes": 322676,
+      "sha256": "78c5a8274890fdbfebb5f3bace9c4bb42ebb2bfcab523ead584dc57df5c2f27a",
+      "kind": "instruction"
+    },
+    "letters-send": {
+      "file": "letters-send.wav",
+      "text": "Письма отправляются к друзьям!",
+      "duration": 3.264,
+      "bytes": 148040,
+      "sha256": "81e8b754b75c910ddccae242591ceb452c006df2c9fa337225c89c1b774622fb",
+      "kind": "instruction"
+    },
+    "reward": {
+      "file": "reward.wav",
+      "text": "Спасибо за помощь! Посылка и письма уже в пути. Эта марка твоя.",
+      "duration": 8.52,
+      "bytes": 379828,
+      "sha256": "51efd41bc59ddd1035409af8848bfa34c7ab6bfbf256600bd346b708d12d0cb7",
+      "kind": "instruction"
+    },
+    "word-soap": {
+      "file": "word-soap.wav",
+      "text": "Мыло.",
+      "duration": 1.824,
+      "bytes": 84536,
+      "sha256": "fe53f049bcda7ccadeae9dec5182d58a7916b24cc8f6dae44a54ca047da62489",
+      "kind": "word"
+    },
+    "word-cat": {
+      "file": "word-cat.wav",
+      "text": "Кот.",
+      "duration": 1.656,
+      "bytes": 77126,
+      "sha256": "3af6abd723638ffd1e5eac72dbf8ae4557bad7412a3200cdbd6017135404c5b7",
+      "kind": "word"
+    },
+    "word-house": {
+      "file": "word-house.wav",
+      "text": "Дом.",
+      "duration": 1.752,
+      "bytes": 81360,
+      "sha256": "5d1e4f454d371ac02a71ba26754407cf06d9e0913988b76cc8efc390056e4c59",
+      "kind": "word"
+    },
+    "word-onion": {
+      "file": "word-onion.wav",
+      "text": "Лук.",
+      "duration": 1.704,
+      "bytes": 79244,
+      "sha256": "08ee4ce5e2a48d555ce06d46176c8324d9721c3aced43de974e309733f5f3288",
+      "kind": "word"
+    },
+    "word-sea": {
+      "file": "word-sea.wav",
+      "text": "Море.",
+      "duration": 1.776,
+      "bytes": 82418,
+      "sha256": "06a37477cc2154527aff7e766272a0c9e46970ad82cf9e87c8a1d6b2f3373d89",
+      "kind": "word"
+    },
+    "word-nose": {
+      "file": "word-nose.wav",
+      "text": "Нос.",
+      "duration": 1.704,
+      "bytes": 79244,
+      "sha256": "1dbe1e2ddf415598ea771a0c392da777eeda189ea63ad0e981ea5852dfe40e3a",
+      "kind": "word"
+    },
+    "word-mother": {
+      "file": "word-mother.wav",
+      "text": "Мама.",
+      "duration": 1.8,
+      "bytes": 83476,
+      "sha256": "8794286698e79bcc91ae8e225794600c77c11db5c6ba794e2deed971f2c38683",
+      "kind": "word"
+    },
+    "word-car": {
+      "file": "word-car.wav",
+      "text": "Машина.",
+      "duration": 1.944,
+      "bytes": 89828,
+      "sha256": "3cce24a32fbba4121370a5440b7a5e67e64e6a7f549a60859da55706a694b4e3",
+      "kind": "word"
+    },
+    "word-umbrella": {
+      "file": "word-umbrella.wav",
+      "text": "Зонт.",
+      "duration": 1.776,
+      "bytes": 82418,
+      "sha256": "8cc6d73084ee8f102b14620a0c4500bd8bffd87c6eb57b41f014a189d3e02e68",
+      "kind": "word"
+    },
+    "word-watermelon": {
+      "file": "word-watermelon.wav",
+      "text": "Арбуз.",
+      "duration": 1.848,
+      "bytes": 85594,
+      "sha256": "43be4d44255d34c2409a9fd7580e42504cd3f7ebec87cbb0e332af300d9fe889",
+      "kind": "word"
+    },
+    "word-milk": {
+      "file": "word-milk.wav",
+      "text": "Молоко.",
+      "duration": 1.896,
+      "bytes": 87710,
+      "sha256": "0fdfb54e22f5a429f29c34744b05fb56590d558dfaf4d530f8478e92bad07062",
+      "kind": "word"
+    },
+    "word-juice": {
+      "file": "word-juice.wav",
+      "text": "Сок.",
+      "duration": 1.776,
+      "bytes": 82418,
+      "sha256": "20b43101980948e4b9ef9a03aa025a3ede99a5d2398a1cc105e4d1e25a09bfff",
+      "kind": "word"
+    },
+    "word-fish": {
+      "file": "word-fish.wav",
+      "text": "Рыба.",
+      "duration": 1.776,
+      "bytes": 82418,
+      "sha256": "8d09379bc565ee419ee36f76b8f04afe9a717221cac2921d2a3dbd5b7ac675e1",
+      "kind": "word"
+    },
+    "word-bridge": {
+      "file": "word-bridge.wav",
+      "text": "Мост.",
+      "duration": 1.776,
+      "bytes": 82418,
+      "sha256": "452b5bc5827100d37d4c6fccbc85eb8574059b981e3bdd7cdc410b5fca27c5c3",
+      "kind": "word"
+    },
+    "word-pear": {
+      "file": "word-pear.wav",
+      "text": "Груша.",
+      "duration": 1.92,
+      "bytes": 88768,
+      "sha256": "0233e2792871e30b652b58b84c9652797b5e837c58aabcb5c54434ade419b0f7",
+      "kind": "word"
+    },
+    "word-forest": {
+      "file": "word-forest.wav",
+      "text": "Лес.",
+      "duration": 1.704,
+      "bytes": 79244,
+      "sha256": "089c6f0ed054314c56dc5d42717cfc4f5be33221675b4b22d8851d62c814c2da",
+      "kind": "word"
+    },
+    "word-fly": {
+      "file": "word-fly.wav",
+      "text": "Муха.",
+      "duration": 1.776,
+      "bytes": 82418,
+      "sha256": "81ea600f6236ac09fc99fd1d2062362c09ce6a01c68ac7ddeba8668b084dd87d",
+      "kind": "word"
+    },
+    "word-tree": {
+      "file": "word-tree.wav",
+      "text": "Дерево.",
+      "duration": 1.896,
+      "bytes": 87710,
+      "sha256": "10bc275d7f1b9c1de43182cb0314e741a95df5e20d017deb9a5d4ffc42041234",
+      "kind": "word"
+    },
+    "word-book": {
+      "file": "word-book.wav",
+      "text": "Книга.",
+      "duration": 1.824,
+      "bytes": 84536,
+      "sha256": "3fa3f2980e0ef23d250b381e069059365a499448620d0cbd9d69fc19324c2fbe",
+      "kind": "word"
+    },
+    "word-hammer": {
+      "file": "word-hammer.wav",
+      "text": "Молоток.",
+      "duration": 2.088,
+      "bytes": 96178,
+      "sha256": "73398dc6e08dca4a247eb368c114c357dd5575fb404541d7a5d491c89f9614be",
+      "kind": "word"
+    },
+    "word-moon": {
+      "file": "word-moon.wav",
+      "text": "Луна.",
+      "duration": 1.8,
+      "bytes": 83476,
+      "sha256": "61f97b3273698e16ada7f93dbdfbbdf05c6f68515e6af38819adf8d5e38e0dee",
+      "kind": "word"
+    },
+    "word-boot": {
+      "file": "word-boot.wav",
+      "text": "Сапог.",
+      "duration": 1.896,
+      "bytes": 87710,
+      "sha256": "4d21d2caffab7f54fc95d846cbfb517e7d0c39ce87cff6cd11b9c174c57f0c57",
+      "kind": "word"
+    },
+    "word-carrot": {
+      "file": "word-carrot.wav",
+      "text": "Морковь.",
+      "duration": 1.896,
+      "bytes": 87710,
+      "sha256": "3796eb24e9653bbbed004b806b7e3b6f77309ec0e2e86f5b4224f4693679f572",
+      "kind": "word"
+    },
+    "word-owl": {
+      "file": "word-owl.wav",
+      "text": "Сова.",
+      "duration": 1.776,
+      "bytes": 82418,
+      "sha256": "8bb480cb187b82f6c2e444bb5230bdf27caa4f815731b4fcdab23115a109aea0",
+      "kind": "word"
+    },
+    "word-cake": {
+      "file": "word-cake.wav",
+      "text": "Торт.",
+      "duration": 1.632,
+      "bytes": 76068,
+      "sha256": "8f4252ce5b9fb4225a8257e53694dca9913b97b914996df33203091483a96102",
+      "kind": "word"
+    },
+    "word-mask": {
+      "file": "word-mask.wav",
+      "text": "Маска.",
+      "duration": 1.848,
+      "bytes": 85594,
+      "sha256": "656250fb3e7dadaae6da56c06fb437d77ba59bc50a8e46fb90cd511e11d1bbaf",
+      "kind": "word"
+    },
+    "word-bucket": {
+      "file": "word-bucket.wav",
+      "text": "Ведро.",
+      "duration": 1.896,
+      "bytes": 87710,
+      "sha256": "5e259a145598faaa7524effc28c8ee7b7744e25c4316f2d573f77c3784783ad4",
+      "kind": "word"
+    },
+    "word-balloon": {
+      "file": "word-balloon.wav",
+      "text": "Шар.",
+      "duration": 1.704,
+      "bytes": 79244,
+      "sha256": "1b43a3647fe764ab31ffeb356729bebca55f8283733f4818a5bc97297848e0c2",
+      "kind": "word"
+    },
+    "other-letter": {
+      "file": "other-letter.wav",
+      "text": "Ловим дальше.",
+      "duration": 2.304,
+      "bytes": 105704,
+      "sha256": "51dda88dc4115cd7c4fb1c8dd496d91713c5836091d686ad4c36fcac5d73a00a",
+      "kind": "instruction"
+    },
+    "letter-m": {
+      "file": "letter-m.wav",
+      "text": "М",
+      "duration": 1.584,
+      "bytes": 73952,
+      "sha256": "f8be901239fe0596fc4e0cb12c94c9bb5cb05a5212f4b53c3ad2e0587e173127",
+      "kind": "letter-name"
+    },
+    "letter-k": {
+      "file": "letter-k.wav",
+      "text": "ка",
+      "duration": 1.512,
+      "bytes": 70776,
+      "sha256": "ee978aea4a3349447f6aa038d7f5fa1c05a387b0de302ff67b0318baf14e84b0",
+      "kind": "letter-name"
+    },
+    "letter-d": {
+      "file": "letter-d.wav",
+      "text": "дэ",
+      "duration": 1.608,
+      "bytes": 75010,
+      "sha256": "3a9584f6fe7521fb7c28f4bb02c117b5e68f40b2c23706038d775a832d74d6ce",
+      "kind": "letter-name"
+    },
+    "letter-l": {
+      "file": "letter-l.wav",
+      "text": "эль",
+      "duration": 1.56,
+      "bytes": 72892,
+      "sha256": "4656fa92f92529a0e517a4753df8c2e01a6c2f10bbe5563debe8e61fc0ccabf6",
+      "kind": "letter-name"
+    },
+    "letter-n": {
+      "file": "letter-n.wav",
+      "text": "эн",
+      "duration": 1.608,
+      "bytes": 75010,
+      "sha256": "db3659ecb729e40c47b671e519113cd8413f69e6fcf65e4ecb6ceecb0096e48a",
+      "kind": "letter-name"
+    },
+    "letter-z": {
+      "file": "letter-z.wav",
+      "text": "зэ",
+      "duration": 1.632,
+      "bytes": 76068,
+      "sha256": "2fe9e7d9ebde93a7977c6b0c8f173b9a053dfbe4caf46918b323397b9ea60b9f",
+      "kind": "letter-name"
+    },
+    "letter-a": {
+      "file": "letter-a.wav",
+      "text": "а",
+      "duration": 1.392,
+      "bytes": 65484,
+      "sha256": "45859357b77f755563dad67af9e64ee395341558370050406d529f93b48c3069",
+      "kind": "letter-name"
+    },
+    "letter-s": {
+      "file": "letter-s.wav",
+      "text": "эс",
+      "duration": 1.608,
+      "bytes": 75010,
+      "sha256": "9e8815e4330719d632cbedba3251b743924f1b8a139aef83aeab4f955539eba5",
+      "kind": "letter-name"
+    },
+    "letter-r": {
+      "file": "letter-r.wav",
+      "text": "эр",
+      "duration": 1.536,
+      "bytes": 71834,
+      "sha256": "20409f15ab663b45d4ec773cc5aad9f41ad79b5af20c8cc3469543182190fc91",
+      "kind": "letter-name"
+    },
+    "letter-g": {
+      "file": "letter-g.wav",
+      "text": "гэ",
+      "duration": 1.632,
+      "bytes": 76068,
+      "sha256": "b6b7c0765be3af4b386690330ccaaa8f3108584913dd5921570b27b1155b1531",
+      "kind": "letter-name"
+    },
+    "letter-t": {
+      "file": "letter-t.wav",
+      "text": "тэ",
+      "duration": 1.488,
+      "bytes": 69718,
+      "sha256": "591ba1ea0310c8a4d380d7bd0a7f3fe6b5161c66b00099fe8fa5b0cb57a2be00",
+      "kind": "letter-name"
+    },
+    "letter-v": {
+      "file": "letter-v.wav",
+      "text": "вэ",
+      "duration": 1.632,
+      "bytes": 76068,
+      "sha256": "3d08df9104ce906e4491f8b96060314ca67a69cd32b5ad2fc94ad13bc332c812",
+      "kind": "letter-name"
+    },
+    "letter-sh": {
+      "file": "letter-sh.wav",
+      "text": "ша",
+      "duration": 1.632,
+      "bytes": 76068,
+      "sha256": "cebace41a2e6f656e74e95a9bbfe089163468b78abe85c507900678080e714b4",
+      "kind": "letter-name"
+    }
+  }
+}
